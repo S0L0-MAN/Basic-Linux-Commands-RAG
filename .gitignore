@@ -228,3 +228,76 @@ test-output/
 
 # Others
 .vagrant/
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Python test & coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# LangChain and Ollama generated files
+# (No specific files usually, but ignore typical cache and logs)
+*.log
+
+# VSCode settings folder
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor swap/temp files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Docker environment files
+.env.docker
+docker-compose.override.yml
+
+# Node.js (if you happen to have any JS frontend parts)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# FAISS index files (optional: depends if you want to store vector indexes in repo)
+# faiss.index
+# faiss_store/
+
+# Misc
+*.sqlite3
+*.db
+
